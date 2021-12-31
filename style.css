@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+.nav li a{
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    color: white;
+    padding: 16px 20px;
+}
+.nav{
+    background-color: black;
+    width: 100%;
+    height: 50px;
+}
+.nav li{
+    float: left;
+    list-style: none;
+}
+.nav li a:hover{
+    background-color: grey;
+    color: black;
+}
+.sub-nav{
+    display: none;
+}
+.sub-nav li{
+    background-color: white;
+    float: none;
+}
+.sub-nav li a{
+    color: black !important;
+}
+.sub-nav li:hover{
+    background: grey;
+    color: black;
+}
+.cha:hover .sub-nav{
+    display: block;
+}
+.kinhlup    {
+    float: right !important;
+    padding: 13px 20px;
+    display: block;
+    color: white;
+    font-size: 20px;
+}
+.kinhlup:hover{
+    background-color: red !important;
+}
+.img{
+    background-image: url(./chicago.jpg);
+    height: 600px;
+    width: 100%;
+    background-size: 100%;
+    color: white;
+    text-align: center;
+}
+.chicago{
+    padding-top: 500px;
+    font-size: 25px;
+    padding-bottom: 10px;
+    font-weight: 300;
+}
+.content{
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.tb{
+    margin-bottom: 15px;
+}
+.wl{
+    text-align: center;
+    margin-bottom: 10px;
+    font-style: italic;
+}
+.text{
+    text-align: justify;
+    padding:0 200px;
+    margin-bottom: 100px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.anh1{
+    padding-bottom: 15px;
+    font-size: 20px;
+}
+.anh{
+    width: 33%;
+    height: auto;
+    float: left; 
+    max-width: 800px;
+}
+.tong{
+    margin-top: 30px;
+    width: 88%;
+    padding: 0 0 0 145px;
+}
+.anh img{
+    margin: 15px;
+}
+@media (min-width: 601px)
+    {.anh {
+        width: 30%;
+    }
+}
+.tour-date{
+    height: 800px;
+    background-color: black;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 64px 0;
+}
+.contact{
+    height: 400px;
+    background-color: white;
+    width: 100%;
+}
+.avt{
+    height: 700px;
+    width: 100%;
+    background-image: url(./map.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer{
+    height: 200px;
+    width: 100%;
+}
+.tour{
+    padding-bottom: 20px;
+}
+.ct{
+    font-style: italic;
+    padding-bottom: 20px;
+    color: #fff;
+}
+.date li{
+    width: 75%;
+    height: 35px;
+    border: 1px solid black;
+    background-color: white;
+    color:black;
+    list-style: none;
+    text-align: left;
+    padding-left: 5px;
+    font-size: 20px;
+    line-height: 35px;
+}
+.So{
+    font-size: 20px;
+    padding: 0 5px;
+    background-color: red;
+    color: white;
+}
+.Tron{
+    padding: 3px 5px;
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+}
+.list-anh{
+    margin-top: 30px;
+    width: 88%;
+    padding: 0 0 0 145px;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.place{
+    float: left;
+    width: 28%;
+    padding: 0 8px;
+    text-align: left;
+}
+.place-img{
+    width: 100%;
+    border-style: none;
+}
+.con{
+    background-color: white;
+    color: black;
+    padding: 5px 5px 10px 5px;
+}
+.pl{
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.dt{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: grey;
+}
+.chu{
+    padding-left: 10px; 
+    padding-bottom: 10px;
+}
+.bt{
+    padding: 10px;
+    margin-left: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+.bt:hover{
+    background-color: #ccc;
+    color: black;
+}
+.place-img:hover{
+    opacity: 0.6;
+}
+.contact-band{
+    text-align: center;
+    margin-bottom: 200px;
+}
+.lienlac .add{
+    float: left;
+}
+.tieude{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+.noidung{
+    margin-bottom: 30px;
+    font-style: italic;
+}
+.add{
+    text-align: left;
+    margin-left: 300px;
+    font-size: 20px;
+    float: left;
+}
+.add table tr td{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 18px;
+}
+.lienhe{
+    margin: 0;
+}
+.lienhe button{
+    padding: 10px;
+    border-radius: 5px;
+}
+.lienhe button a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.lienhe button:hover{
+    background-color: pink;
+}
+.footer{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size: 20px;
+    padding-top: 64px;
+}
+.footer .icon{
+    padding-bottom: 15px;
+}
+.footer .icon i:hover{
+    opacity: 0.6;
+}
